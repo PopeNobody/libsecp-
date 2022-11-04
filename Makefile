@@ -9,7 +9,7 @@ CFLAGS :=
 
 allsrc:=$(wildcard *.cc *.c)
 
-exeexe:= upload-server
+exeexe:= btctest
 
 all: $(exeexe)
 

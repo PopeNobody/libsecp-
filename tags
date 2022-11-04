@@ -1,0 +1,166 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	md5.hh	/^  uint32_t A;$/;"	m	struct:md5_ctx
+B	md5.hh	/^  uint32_t B;$/;"	m	struct:md5_ctx
+BLOCKSIZE	md5.cc	62;"	d	file:
+BUFFER_SIZE	connection.hh	6;"	d
+C	md5.hh	/^  uint32_t C;$/;"	m	struct:md5_ctx
+CYCLIC	md5.cc	392;"	d	file:
+D	md5.hh	/^  uint32_t D;$/;"	m	struct:md5_ctx
+FF	md5.cc	336;"	d	file:
+FG	md5.cc	337;"	d	file:
+FH	md5.cc	338;"	d	file:
+FI	md5.cc	339;"	d	file:
+GL_OPENSSL_INLINE	md5.cc	25;"	d	file:
+GL_OPENSSL_NAME	md5.hh	16;"	d
+MD5_BLOCK_SIZE	md5.hh	8;"	d
+MD5_DIGEST_SIZE	md5.hh	7;"	d
+OP	md5.cc	380;"	d	file:
+OP	md5.cc	425;"	d	file:
+OP	md5.cc	426;"	d	file:
+SOCKET_NAME	connection.hh	5;"	d
+SWAP	md5.cc	57;"	d	file:
+SWAP	md5.cc	59;"	d	file:
+UNALIGNED_P	md5.cc	295;"	d	file:
+WORDS_BIGENDIAN	md5.cc	42;"	d	file:
+_MD5_H	md5.hh	2;"	d
+__GNU_SOURCE	magic.cc	2;"	d	file:
+__THROW	md5.hh	11;"	d
+addr	client.cc	/^struct sockaddr_un addr;$/;"	v	typeref:struct:sockaddr_un
+addr	server.cc	/^struct sockaddr_un addr;$/;"	v	typeref:struct:sockaddr_un
+address_t	fd-path.hh	/^union address_t {$/;"	u
+announce	checkret.cc	17;"	d	file:
+beg	fixed_buf.hh	/^  char *beg() { return buf; }$/;"	f	struct:fixed_buf
+beg	fixed_buf.hh	/^  const char *beg() const { return buf; }$/;"	f	struct:fixed_buf
+beg	unixpp.hh	/^    const char *beg;$/;"	m	struct:unixpp::range_t
+bind_and_accept	checkret.cc	/^int checkret::bind_and_accept(const char *addr, int port) {$/;"	f	class:checkret
+bind_and_accept	client.cc	/^void bind_and_accept() {$/;"	f
+bind_and_accept	server.cc	/^void bind_and_accept() {$/;"	f
+buf	dump.cc	/^static char buf[8];$/;"	v	file:
+buf	fixed_buf.hh	/^  char buf[_size];$/;"	m	struct:fixed_buf
+buf	one_upload.cc	/^static char buf[8*1024];$/;"	v	file:
+buf	upload.cc	/^static char buf[8*1024];$/;"	v	file:
+buffer	md5.hh	/^  uint32_t buffer[32]; \/* 128 bytes; the first buflen bytes are in use *\/$/;"	m	struct:md5_ctx
+buflen	md5.hh	/^  uint32_t buflen;     \/* ≥ 0, ≤ 128 *\/$/;"	m	struct:md5_ctx
+checkret	checkret.hh	/^namespace checkret $/;"	n
+checkret_hh	checkret.hh	2;"	d
+connection_socket	client.cc	/^int connection_socket;$/;"	v
+connection_socket	server.cc	/^int connection_socket;$/;"	v
+countof	util.hh	4;"	d
+data_socket	client.cc	/^int data_socket;$/;"	v
+data_socket	server.cc	/^int data_socket;$/;"	v
+end	fixed_buf.hh	/^  char *end() { return buf+_size; }$/;"	f	struct:fixed_buf
+end	fixed_buf.hh	/^  const char *end() const { return buf+_size; }$/;"	f	struct:fixed_buf
+end	unixpp.hh	/^    const char *end;$/;"	m	struct:unixpp::range_t
+err_remark	fd-client.cc	/^void err_remark(const char *msg){$/;"	f
+err_remark	fd-server.cc	/^void err_remark(const char *msg){$/;"	f
+err_syserr	fd-client.cc	/^void err_syserr(const char *msg){$/;"	f
+err_syserr	fd-server.cc	/^void err_syserr(const char *msg){$/;"	f
+fd_path_h	fd-path.hh	2;"	d
+filename	dump.cc	/^int filename(fixed_buf<size> &fn_buf) {$/;"	f
+filename	one_upload.cc	/^int filename(fixed_buf<size> &fn_buf) {$/;"	f
+filename	upload.cc	/^int filename(fixed_buf<size> &fn_buf) {$/;"	f
+fillbuf	md5.cc	/^static const unsigned char fillbuf[64] = { 0x80, 0 \/* , 0, 0, ...  *\/ };$/;"	v	file:
+fixed_buf	fixed_buf.hh	/^struct fixed_buf {$/;"	s
+fixedbuf_hh	fixed_buf.hh	2;"	d
+fork_and_dup	client.cc	/^void fork_and_dup() {$/;"	f
+fork_and_dup	server.cc	/^void fork_and_dup() {$/;"	f
+forking	dump.cc	/^bool forking(){$/;"	f
+forking	fd-server.cc	/^bool forking() {$/;"	f
+forking	old-server.cc	/^bool forking() {$/;"	f
+forking	one_upload.cc	/^bool forking(){$/;"	f
+forking	upload.cc	/^bool forking(){$/;"	f
+format_now	fixed_buf.cc	/^void format_now(fixed_buf<20> &res)$/;"	f
+hook_up	client.cc	/^void hook_up() {$/;"	f
+hook_up	server.cc	/^void hook_up() {$/;"	f
+ifd	dump.cc	/^int ifd=-1;$/;"	v
+ifd	one_upload.cc	/^int ifd=-1;$/;"	v
+ifd	upload.cc	/^int ifd=-1;$/;"	v
+magic_ext	magic.cc	/^std::string unixpp::magic_ext(const range_t &range) {$/;"	f	class:unixpp
+magic_mime	magic.cc	/^std::string unixpp::magic_mime(const range_t &range) {$/;"	f	class:unixpp
+main	client.cc	/^int main(int argc, char *argv[])$/;"	f
+main	dump.cc	/^int main(int argc, char**argv){$/;"	f
+main	fd-client.cc	/^int main(int argc, char **argv)$/;"	f
+main	fd-server.cc	/^int main(int argc, char **argv)$/;"	f
+main	old-client.cc	/^int main(int argc, char *argv[])$/;"	f
+main	old-server.cc	/^int main(int argc, char *argv[])$/;"	f
+main	one_upload.cc	/^int main(int argc, char**argv){$/;"	f
+main	server.cc	/^int main(int argc, char *argv[])$/;"	f
+main	upload.cc	/^int main(int argc, char**argv){$/;"	f
+md5_buffer	md5.cc	/^md5_buffer (const char *buffer, size_t len, void *resblock)$/;"	f
+md5_buffer	md5.cc	52;"	d	file:
+md5_ctx	md5.hh	/^struct md5_ctx$/;"	s
+md5_finish_ctx	md5.cc	49;"	d	file:
+md5_init_ctx	md5.cc	46;"	d	file:
+md5_process_block	md5.cc	47;"	d	file:
+md5_process_bytes	md5.cc	48;"	d	file:
+md5_read_ctx	md5.cc	50;"	d	file:
+md5_stream	md5.cc	/^md5_stream (FILE *stream, void *resblock)$/;"	f
+md5_stream	md5.cc	51;"	d	file:
+md5text	unixpp.hh	/^  typedef array<char,32> md5text;$/;"	t	namespace:unixpp
+now	checkret.cc	/^const char *checkret::now()$/;"	f	class:checkret
+odbierz	fd-client.cc	/^int odbierz(int socket)  \/\/ receive fd from socket$/;"	f	file:
+open_socket	client.cc	/^void open_socket() {$/;"	f
+open_socket	server.cc	/^void open_socket() {$/;"	f
+operator sockaddr*	fd-path.hh	/^  operator sockaddr*() {$/;"	f	union:address_t
+pexit	checkret.hh	/^  inline int pexit(const char *msg) {$/;"	f	namespace:checkret
+pexit	checkret.hh	/^  inline int pexit(int ret,const char *msg){$/;"	f	namespace:checkret
+range_t	unixpp.hh	/^  struct range_t {$/;"	s	namespace:unixpp
+recv_fd	server.cc	/^void recv_fd() {$/;"	f
+ret	client.cc	/^int ret;$/;"	v
+ret	server.cc	/^int ret;$/;"	v
+sad	fd-path.hh	/^  sockaddr    sad;$/;"	m	union:address_t
+send_fd	server.cc	/^void send_fd() {$/;"	f
+set_uint32	md5.cc	/^set_uint32 (char *cp, uint32_t v)$/;"	f	file:
+sigchild	dump.cc	/^void sigchild(int arg){$/;"	f
+sigchild	one_upload.cc	/^void sigchild(int arg){$/;"	f
+sigchild	upload.cc	/^void sigchild(int arg){$/;"	f
+size	fixed_buf.hh	/^  size_t size() { return _size; }$/;"	f	struct:fixed_buf
+sun	fd-path.hh	/^  sockaddr_un sun;$/;"	m	union:address_t
+total	dump.cc	/^size_t total=0;$/;"	v
+total	md5.hh	/^  uint32_t total[2];$/;"	m	struct:md5_ctx
+total	one_upload.cc	/^size_t total=0;$/;"	v
+total	upload.cc	/^size_t total=0;$/;"	v
+unix_path	fd-path.cc	/^address_t unix_path() {$/;"	f
+unixpp	unixpp.hh	/^namespace unixpp {$/;"	n
+unixpp_hh	unixpp.hh	2;"	d
+util_hh	util.hh	2;"	d
+wait_msg	fd-server.cc	/^void wait_msg(int socket) {$/;"	f	file:
+wait_nohang	dump.cc	/^int wait_nohang(int *stat) {$/;"	f
+wait_nohang	one_upload.cc	/^int wait_nohang(int *stat) {$/;"	f
+wait_nohang	upload.cc	/^int wait_nohang(int *stat) {$/;"	f
+write_cs	checkret.hh	/^  inline size_t write_cs(int fd, const char *str)$/;"	f	namespace:checkret
+wyslij	fd-client.cc	/^void wyslij(int socket, int fd)  \/\/ send fd by socket$/;"	f	file:
+wyslij	fd-server.cc	/^void wyslij(int socket, int fd)  \/\/ send fd by socket$/;"	f	file:
+xaccept	checkret.cc	/^int checkret::xaccept(int sock, sockaddr *addr, socklen_t *addrlen){$/;"	f	class:checkret
+xaccept4	checkret.cc	/^int checkret::xaccept4(int sock, sockaddr *addr, socklen_t *addrlen,int flags){$/;"	f	class:checkret
+xbind	checkret.cc	/^int checkret::xbind(int fd, const struct sockaddr *addr, socklen_t len){$/;"	f	class:checkret
+xclose	checkret.cc	/^int checkret::xclose(int fd){$/;"	f	class:checkret
+xconnect	checkret.cc	/^int checkret::xconnect(int sock, sockaddr*addr,socklen_t len){$/;"	f	class:checkret
+xdup2	checkret.cc	/^int checkret::xdup2(int oldfd, int newfd) {$/;"	f	class:checkret
+xexit	checkret.cc	/^void checkret::xexit(int res){$/;"	f	class:checkret
+xfork	checkret.cc	/^int checkret::xfork(){$/;"	f	class:checkret
+xinet_aton	checkret.cc	/^int checkret::xinet_aton(const char *cp, struct in_addr *inp){$/;"	f	class:checkret
+xlink	checkret.cc	/^void checkret::xlink(const char *oldpath, const char *newpath){$/;"	f	class:checkret
+xlinkat	checkret.cc	/^void checkret::xlinkat(int olddirfd, const char *oldpath,$/;"	f	class:checkret
+xlisten	checkret.cc	/^int checkret::xlisten(int sock, int backlog){$/;"	f	class:checkret
+xlseek	checkret.cc	/^int checkret::xlseek(int fd, int off, int origin){$/;"	f	class:checkret
+xmkdirat	checkret.cc	/^void checkret::xmkdirat(int dirfd, const char *pathname, mode_t mode){$/;"	f	class:checkret
+xmmap	checkret.cc	/^void *checkret::xmmap(void *addr, size_t length, int prot, int flags,$/;"	f	class:checkret
+xmmap_file	unixpp.cc	/^range_t unixpp::xmmap_file(const char*fname) {$/;"	f	class:unixpp
+xmunmap	checkret.cc	/^void checkret::xmunmap(void *addr, size_t length){$/;"	f	class:checkret
+xopen	checkret.hh	/^  inline int xopen(const char *pathname, int flags, mode_t mode=0777){$/;"	f	namespace:checkret
+xopenat	checkret.cc	/^int checkret::xopenat(int dirfd, const char *name, int flags,mode_t mode)$/;"	f	class:checkret
+xpipe	checkret.cc	/^void checkret::xpipe(int fds[2]) {$/;"	f	class:checkret
+xread	checkret.cc	/^int checkret::xread(int fd, char *const buf, size_t size,bool full){$/;"	f	class:checkret
+xsetsockopt	checkret.cc	/^int checkret::xsetsockopt(int sock, int proto, int flag, char *value, size_t size){$/;"	f	class:checkret
+xsleep	checkret.cc	/^int checkret::xsleep(int seconds){$/;"	f	class:checkret
+xsocket	checkret.cc	/^int checkret::xsocket(int family, int type, int prot){$/;"	f	class:checkret
+xunlink	checkret.hh	/^  inline void xunlink(const char *pathname) {$/;"	f	namespace:checkret
+xunlinkat	checkret.cc	/^void checkret::xunlinkat(int dirfd, const char *path, int flags) {$/;"	f	class:checkret
+xwrite	checkret.cc	/^size_t checkret::xwrite(int fd, const char *const buf, size_t size, bool full) {$/;"	f	class:checkret
+xxwrite	checkret.cc	/^size_t xxwrite(int fd, const char *const buf, size_t size, bool full) {$/;"	f
